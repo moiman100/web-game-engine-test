@@ -1,0 +1,22 @@
+{
+  "name": "web-game-engine-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build-phaser": "tsc && vite build --mode phaser",
+    "build-pixi": "tsc && vite build --mode pixi",
+    "build-melon": "tsc && vite build --mode melon",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "melonjs": "^14.3.0",
+    "phaser": "3.60.0-beta.17",
+    "pixi.js": "^7.0.5",
+    "rollup-plugin-visualizer": "^5.9.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "vite-plugin-handlebars": "^1.6.0"
+  }
+}
